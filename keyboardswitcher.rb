@@ -5,9 +5,9 @@
 class Keyboardswitcher < Formula
   desc ""
   homepage ""
-  url "https://github.com/Lutzifer/keyboardSwitcher/archive/0.0.2.tar.gz"
-  version "0.0.2"
-  sha256 "970f4090f9d0935ea2b771e6ca09a46acd57eed1c0f9121f7710c63b397e67ba"
+  url "https://github.com/Lutzifer/keyboardSwitcher/archive/0.0.3.tar.gz"
+  version "0.0.3"
+  sha256 "8c90b87caca856326dc4ec703147d8ad66be7900c0054ca2a07b8ca5f565fc31"
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components
