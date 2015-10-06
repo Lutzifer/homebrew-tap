@@ -13,7 +13,7 @@ class Downloadsorter < Formula
   depends_on :x11 # if your formula requires any X11/XQuartz components
 
   def install
-    xcodebuild -scheme downloadSorter
+    system "xcodebuild", "-scheme", "downloadSorter",
     bin.install("build/release/downloadSorter")
   end
 
