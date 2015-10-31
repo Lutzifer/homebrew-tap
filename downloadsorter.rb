@@ -9,9 +9,6 @@ class Downloadsorter < Formula
   version "0.0.1"
   sha256 "e14b6c3d97dd0b68244b836ad3db5d6cf1d10beeac73a02ff26de4377ff85256"
 
-  # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
-
   def install
     system "xcodebuild", "-target", "downloadSorter", "-configuration", "Release"
     bin.install("build/release/downloadSorter")
