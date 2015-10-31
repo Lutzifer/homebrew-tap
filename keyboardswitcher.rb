@@ -9,9 +9,6 @@ class Keyboardswitcher < Formula
   version "0.0.4"
   sha256 "4ae4f7874f3e8412a6a33e4bdf1d1725348b909bdd5e71d8507c3b1ec544cda8"
 
-  # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
-
   def install
    xcodebuild
    bin.install("build/release/keyboardSwitcher")
