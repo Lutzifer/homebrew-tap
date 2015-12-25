@@ -7,7 +7,7 @@ class Wallpapertimer < Formula
   homepage ""
   url "https://github.com/Lutzifer/Wallpapertimer/archive/0.0.1.tar.gz"
   version "0.0.1"
-  sha256 "ce43cf726bcee8f39a58b0277a76a45947d4cfa6a11b60d21682de4b312c60e5"
+  sha256 "099e019bb013bbb1aa5055d436f051760c3cce17994cd3d12721cf53bde25228"
 
   def install
     system "xcodebuild", "-target", "wallpaperTimer", "-configuration", "Release"
