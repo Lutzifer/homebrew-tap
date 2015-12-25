@@ -5,9 +5,9 @@
 class Downloadsorter < Formula
   desc ""
   homepage ""
-  url "https://github.com/Lutzifer/downloadSorter/archive/0.0.1.tar.gz"
-  version "0.0.1"
-  sha256 "e14b6c3d97dd0b68244b836ad3db5d6cf1d10beeac73a02ff26de4377ff85256"
+  url "https://github.com/Lutzifer/downloadSorter/archive/0.0.2.tar.gz"
+  version "0.0.2"
+  sha256 "b49a3c3bf148035bd522bf362e90a4958aea2d5ceafc6fa2d5fe5be95dbb54ee"
 
   def install
     system "xcodebuild", "-target", "downloadSorter", "-configuration", "Release"
