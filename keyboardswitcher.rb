@@ -5,9 +5,9 @@
 class Keyboardswitcher < Formula
   desc ""
   homepage ""
-  url "https://github.com/Lutzifer/keyboardSwitcher/archive/0.0.4.tar.gz"
-  version "0.0.4"
-  sha256 "4ae4f7874f3e8412a6a33e4bdf1d1725348b909bdd5e71d8507c3b1ec544cda8"
+  url "https://github.com/Lutzifer/keyboardSwitcher/archive/0.0.5.tar.gz"
+  version "0.0.5"
+  sha256 "cd116f23214d49fc36b34c11e741bc4567c752abda96eae07bc896ce88757762"
 
   def install
    xcodebuild
