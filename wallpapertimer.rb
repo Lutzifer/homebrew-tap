@@ -3,11 +3,11 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
 class Wallpapertimer < Formula
-  desc ""
-  homepage ""
-  url "https://github.com/Lutzifer/Wallpapertimer/archive/0.0.3.tar.gz"
-  version "0.0.3"
-  sha256 "05fc300ec7220c61163623d4afb12ea981f916b4daffdb95f7b06dad5b5a0a53"
+  desc "Automatically set groups of wallpapers to multiple screens"
+  homepage "https://github.com/Lutzifer/wallpaperTimer"
+  url "https://github.com/Lutzifer/wallpaperTimer/archive/0.9.0.tar.gz"
+  version "0.9.0"
+  sha256 "190c3e4025b14b85313a7ced57cf632e25f35bebc07c258cfd0dc9329ab68e42"
 
   def install
     system "xcodebuild", "-target", "wallpaperTimer", "-configuration", "Release"
