@@ -9,6 +9,11 @@ class Wallpapertimer < Formula
   version "0.9.0"
   sha256 "190c3e4025b14b85313a7ced57cf632e25f35bebc07c258cfd0dc9329ab68e42"
 
+  bottle do
+      cellar :any_skip_relocation
+      sha256 "b246817251d66490a16b6ac85eb86841bdec331dfc65040e735d159f5aeb3333" => :sierra
+  end
+
   def install
     system "xcodebuild", "-target", "wallpaperTimer", "-configuration", "Release"
     bin.install("build/release/wallpaperTimer")
