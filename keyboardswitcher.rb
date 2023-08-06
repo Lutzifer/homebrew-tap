@@ -1,9 +1,9 @@
 class Keyboardswitcher < Formula
   desc "Tool that allows to switch Keyboard layouts from the command-line"
   homepage "https://github.com/Lutzifer/keyboardSwitcher"
-  url "https://github.com/Lutzifer/keyboardSwitcher/archive/1.0.2.tar.gz"
-  version "1.0.2"
-  sha256 "25ebbe0a2c57fad9ce37b1dfbde2f9b612b3f72af87002ddb17903b396adb1d9"
+  url "https://github.com/Lutzifer/keyboardSwitcher/archive/1.0.3.tar.gz"
+  version "1.0.3"
+  sha256 "e0d005105fd3972f6d3f4a0a4c71dc0112d4f8168b06503c98620653b5a4aa72"
 
   def install
     xcodebuild
