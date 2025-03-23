@@ -1,4 +1,4 @@
-class KeyboardSwitcher < Formula
+class Keyboardswitcher < Formula
   desc "Tool that allows to switch Keyboard layouts from the command-line"
   homepage "https://github.com/Lutzifer/keyboardSwitcher"
   url "https://github.com/Lutzifer/keyboardSwitcher/releases/download/v2.2.0/keyboardSwitcher"
